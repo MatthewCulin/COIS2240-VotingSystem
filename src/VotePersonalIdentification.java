@@ -1,12 +1,24 @@
+/*
+    MATTHEW CULIN
+    0597375
+    COIS 2240
+    ASSIGNMENT 2
+
+    THE PURPOSE OF THIS PROGRAM IS TO ALLOW A USER TO REGISTER TO VOTE AND SUBMIT A BALLOT
+ */
+
 import java.util.Scanner;
+import java.util.concurrent.ThreadLocalRandom;
 
 public class VotePersonalIdentification
 {
 
+    ////////////////////////////////////////////////////////////
     public static void main(String[] args)
     {
+        //////////////////////////////
+        // Scanner and variables
         Scanner scan = new Scanner(System.in);
-
 	    String voterLastName;
 	    String voterFirstName;
 	    Integer voterSIN;
@@ -15,53 +27,71 @@ public class VotePersonalIdentification
 	    String voterCity;
 	    String voterPostalCode;
 
+        //////////////////////////////
 	    // Last Name
-	    System.out.println("Last Name: ");
+	    System.out.print("Last Name: ");
         voterLastName = scan.next().toUpperCase();
         scan = new Scanner(System.in);
 
+        //////////////////////////////
         // First Name
-        System.out.println("First Name: ");
+        System.out.print("First Name: ");
         voterFirstName = scan.next().toUpperCase();
         scan = new Scanner(System.in);
 
+        //////////////////////////////
         // SIN Number
-        System.out.println("SIN Number: ");
+        System.out.print("SIN Number: ");
         voterSIN = scan.nextInt();
         scan = new Scanner(System.in);
 
+        //////////////////////////////
         // Address
-        System.out.println("Address: ");
+        System.out.print("Address: ");
         voterAddress = scan.next();
         scan = new Scanner(System.in);
 
-        // Province
-        System.out.println("Province: ");
-        voterProvince = scan.next();
-        scan = new Scanner(System.in);
-
+        //////////////////////////////
         // City
-        System.out.println("City: ");
+        System.out.print("City: ");
         voterCity = scan.next();
         scan = new Scanner(System.in);
 
+        //////////////////////////////
+        // Province
+        System.out.print("Province: ");
+        voterProvince = scan.next();
+        scan = new Scanner(System.in);
+
+        //////////////////////////////
         // Postal Code
-        System.out.println("Postal Code: ");
+        System.out.print("Postal Code: ");
         voterPostalCode = scan.next();
 
-        /////////////////////////////////////////
-        //
-        // validateLastName(voterLastName);
-        // validateFirstName(voterFirstName);
-        // validateSIN(voterSIN);
-        // validatePostalCode(voterPostalCode);
-        //
-        /////////////////////////////////////////
+        //////////////////////////////
+        // Validates user input
+        validateLastName(voterLastName);
+        validateFirstName(voterFirstName);
+        validateSIN(voterSIN);
+        validatePostalCode(voterPostalCode);
+
+        //////////////////////////////
+        // Registers voter
+        successfullyRegistered();
+        BallotCreation voterBallot = new BallotCreation(voterID(voterFirstName, voterLastName));
+
+        //////////////////////////////
+        // Generates a ballot and allows a vote
+        voterBallot.submitBallot();
+
+        System.out.println("Thank you for voting!");
 
     }// END OF MAIN
 
+
+    ////////////////////////////////////////////////////////////
     // Validates the voterLastName
-    public Boolean validateLastName(String lastName)
+    public static boolean validateLastName(String lastName)
     {
         String check = "^[a-zA-Z]+$";
         if(lastName.matches(check))
@@ -70,8 +100,10 @@ public class VotePersonalIdentification
         return false;
     }// VALIDATE LAST NAME
 
+
+    ////////////////////////////////////////////////////////////
     // Validates the voterFirstName
-    public Boolean validateFirstName(String firstName)
+    public static boolean validateFirstName(String firstName)
     {
         String check = "^[a-zA-Z]+$";
         if(firstName.matches(check))
@@ -80,24 +112,30 @@ public class VotePersonalIdentification
         return false;
     }// VALIDATE FIRST NAME
 
+
+    ////////////////////////////////////////////////////////////
     // Validates the voterSIN
-    public Boolean validateSIN(Integer sinNumber)
+    public static boolean validateSIN(Integer sinNumber)
     {
         if(sinNumber == (int) sinNumber)
         {
-            // Checks if the sinNumber is of length 11 (###_###_###)
+            // Checks if the sinNumber is of length 9 (#########)
             int length = String.valueOf(sinNumber).length();
-            if (length == 11)
+
+            if (length == 9)
                 return true;
 
-            return false;
+            else
+                return false;
         }
 
         return false;
     }// END OF VALIDATE SIN
 
+
+    ////////////////////////////////////////////////////////////
     // Validates the voterPostalCode
-    public Boolean validatePostalCode(String postalCode)
+    public static boolean validatePostalCode(String postalCode)
     {
         // Checks each character in the postal code to determine if it is a valid character
         if(postalCode.length() == 6)
@@ -128,4 +166,30 @@ public class VotePersonalIdentification
         return false;
     }// END OF VALIDATE POSTAL CODE
 
-}// END OF VOTE PERSONAL IDENTIFICATION
+
+    ////////////////////////////////////////////////////////////
+    // Returns that the voter is successfully registered
+    public static String successfullyRegistered()
+    {
+        System.out.println("\nSuccessfully registered. Generating voter ID...");
+
+        return "";
+    }// END OF SUCCESSFULLY REGISTERED
+
+
+    ////////////////////////////////////////////////////////////
+    // Creates a voterID for the registered voter
+    public static String voterID(String firstName, String lastName)
+    {
+        String voterID;
+        int randomNum;
+
+        randomNum = ThreadLocalRandom.current().nextInt(1, 9999);
+        voterID = firstName + lastName + String.valueOf(randomNum);
+
+        System.out.println("Voter ID is " + voterID);
+
+        return voterID;
+    }// END OF VOTER ID
+
+}// END OF VOTE PERSONAL IDENTIFICATION CLASS

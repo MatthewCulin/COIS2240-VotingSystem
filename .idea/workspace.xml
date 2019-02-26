@@ -2,51 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd0cb00f-f733-4973-913f-8f1add43449d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../COIS-2240H-Project" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FibonacciSequence" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GeometricObject" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tutorial3/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tutorial3/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tutorial3/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tutorial3/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tutorial3/.idea/project-template.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tutorial3/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tutorial3/Tutorial3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tutorial3/out/production/Tutorial3/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tutorial3/out/production/Tutorial3/NormalAccount.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tutorial3/out/production/Tutorial3/PrivilegedAccount.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tutorial3/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tutorial3/src/NormalAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tutorial3/src/PrivilegedAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tutorial4/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tutorial4/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tutorial4/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tutorial4/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tutorial4/.idea/project-template.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tutorial4/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tutorial4/Tutorial4.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tutorial4/out/production/Tutorial4/Circle.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tutorial4/out/production/Tutorial4/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tutorial4/out/production/Tutorial4/Rectangle.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tutorial4/out/production/Tutorial4/Shape.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tutorial4/src/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tutorial4/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tutorial4/src/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tutorial4/src/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/project-template.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/VotingSystem.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/VotingSystem/BallotCreation.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/VotingSystem/Candidate.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BallotCreation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Candidate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VotePersonalIdentification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FibonacciSequence" beforeDir="false" afterPath="$PROJECT_DIR$/../FibonacciSequence" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GeometricObject" beforeDir="false" afterPath="$PROJECT_DIR$/../GeometricObject" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/VotingSystem/BallotCreation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/VotingSystem/BallotCreation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/VotingSystem/Candidate.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/VotingSystem/Candidate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BallotCreation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BallotCreation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Candidate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Candidate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VotePersonalIdentification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VotePersonalIdentification.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -60,49 +24,49 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/VotePersonalIdentification.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="730">
-              <caret line="94" lean-forward="true" selection-start-line="94" selection-end-line="94" />
+            <state relative-caret-position="17">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#main#0;class#VotePersonalIdentification#0" />
+                <element signature="method#validateLastName#0;class#VotePersonalIdentification#0" />
+                <element signature="method#validateFirstName#0;class#VotePersonalIdentification#0" />
+                <element signature="method#validateSIN#0;class#VotePersonalIdentification#0" />
+                <element signature="method#validatePostalCode#0;class#VotePersonalIdentification#0" />
+                <element signature="method#successfullyRegistered#0;class#VotePersonalIdentification#0" />
+                <element signature="method#voterID#0;class#VotePersonalIdentification#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/BallotCreation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+              <folding>
+                <element signature="method#submitBallot#0;class#BallotCreation#0" />
+                <element signature="e#853#883#0" />
+                <element signature="method#displayBallot#0;class#BallotCreation#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/BallotCreation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Candidate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+            <state relative-caret-position="136">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+              <folding>
+                <element signature="e#693#694#0" expanded="true" />
+                <element signature="e#734#735#0" expanded="true" />
+                <element signature="method#Candidate#0;class#Candidate#0" />
+                <element signature="method#Candidate#1;class#Candidate#0" />
+              </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Tutorial3/src/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="31" column="3" lean-forward="true" selection-start-line="31" selection-start-column="3" selection-end-line="31" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Tutorial3/src/NormalAccount.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-35" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Tutorial3/src/PrivilegedAccount.java">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -121,9 +85,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/BallotCreation.java" />
         <option value="$PROJECT_DIR$/src/VotePersonalIdentification.java" />
         <option value="$PROJECT_DIR$/src/Candidate.java" />
-        <option value="$PROJECT_DIR$/src/BallotCreation.java" />
       </list>
     </option>
   </component>
@@ -137,29 +101,10 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="VotingSystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="VotingSystem" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="VotingSystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="VotingSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551065475047" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551155974715" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -201,6 +146,14 @@
       <option name="presentableId" value="Default" />
       <updated>1551060674340</updated>
     </task>
+    <task id="LOCAL-00001" summary="Second Commit">
+      <created>1551123772633</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1551123772633</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -216,15 +169,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32718894" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31336406" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Messages" order="10" visible="true" weight="0.32718894" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32872504" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32718894" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -235,14 +188,15 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Second Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Second Commit" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../Tutorial3/src/NormalAccount.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-35" />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Tutorial3/src/PrivilegedAccount.java">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/../Tutorial3/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -251,24 +205,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Candidate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/../Tutorial3/src/PrivilegedAccount.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/VotePersonalIdentification.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="730">
-          <caret line="94" lean-forward="true" selection-start-line="94" selection-end-line="94" />
+        <state relative-caret-position="17">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#main#0;class#VotePersonalIdentification#0" />
+            <element signature="method#validateLastName#0;class#VotePersonalIdentification#0" />
+            <element signature="method#validateFirstName#0;class#VotePersonalIdentification#0" />
+            <element signature="method#validateSIN#0;class#VotePersonalIdentification#0" />
+            <element signature="method#validatePostalCode#0;class#VotePersonalIdentification#0" />
+            <element signature="method#successfullyRegistered#0;class#VotePersonalIdentification#0" />
+            <element signature="method#voterID#0;class#VotePersonalIdentification#0" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BallotCreation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="255">
+          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+          <folding>
+            <element signature="method#submitBallot#0;class#BallotCreation#0" />
+            <element signature="e#853#883#0" />
+            <element signature="method#displayBallot#0;class#BallotCreation#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Candidate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#693#694#0" expanded="true" />
+            <element signature="e#734#735#0" expanded="true" />
+            <element signature="method#Candidate#0;class#Candidate#0" />
+            <element signature="method#Candidate#1;class#Candidate#0" />
+          </folding>
         </state>
       </provider>
     </entry>
